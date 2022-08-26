@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Aboreto", cursive;
+  font-family: "Roboto Mono", monospace;
+}
+
+header {
+  background: url(../img/bg.jpg), orange;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+header .contenedor_logo_menu {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+header .contenedor_logo_menu .logo a {
+  display: block;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  line-height: 50px;
+}
+header .contenedor_logo_menu .logo a img {
+  vertical-align: top;
+}
+header .contenedor_logo_menu .menu {
+  text-align: right;
+  line-height: 50px;
+}
+header .contenedor_logo_menu .menu a {
+  color: white;
+  margin-left: 60px;
+  font-size: 17px;
+  text-decoration: none;
+}
+header .textos {
+  color: white;
+  text-align: center;
+  margin: 150px 0;
+}
+header .textos .primera_linea {
+  font-size: 35px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+header .textos .segunda_linea {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+header .textos .contenedor-btns {
+  margin-bottom: 120px;
+}
+header .textos .contenedor-btns a {
+  border-radius: 4px;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 0;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
